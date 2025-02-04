@@ -27,6 +27,18 @@ const NavLinks = () => (
     Menu
   </NavLink>
 </li>
+<li>
+  <NavLink 
+    to="/order" 
+    className={({ isActive }) => 
+      isActive 
+        ? "text-blue-500 font-bold border-b-2 border-blue-500 pb-1" 
+        : "text-white border-b-2 border-transparent pb-1"
+    }
+  >
+    Order
+  </NavLink>
+</li>
 
 
     </>
